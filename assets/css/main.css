@@ -1848,7 +1848,7 @@ input, select, textarea {
 		position: relative;
 		text-align: center;
 		text-decoration: none;
-		text-transform: uppercase;
+		text-transform: none;
 		white-space: nowrap;
 	}
 
@@ -3414,7 +3414,7 @@ input, select, textarea {
 						font-size: 0.6em;
 						font-weight: bold;
 						letter-spacing: 0.25em;
-						text-transform: uppercase;
+						text-transform: none;
 					}
 
 						#header > nav > ul > li a:hover {
@@ -3747,9 +3747,9 @@ input, select, textarea {
 			padding: 1.35em 0;
 			position: relative;
 			text-decoration: none;
-			text-transform: uppercase;
+			text-transform: none;
 		}
-
+		<!--
 			#sidebar nav a:before, #sidebar nav a:after {
 				border-radius: 0.2em;
 				bottom: 0;
@@ -3787,6 +3787,7 @@ input, select, textarea {
 				#sidebar nav a.active:after {
 					max-width: 100%;
 				}
+		-->
 
 		body.is-preload #sidebar > .inner {
 			opacity: 0;
