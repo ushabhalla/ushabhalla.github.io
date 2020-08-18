@@ -260,6 +260,14 @@ WORK
     font-size: 1em;
     color: gold;
   }
+  
+  header .pages a {
+    text-decoration: none;
+    font-size: 18px;
+    color: lightyellow;
+    transition: 0.3s ease;
+  }
+  
 }
 
 /* DESKTOP */
