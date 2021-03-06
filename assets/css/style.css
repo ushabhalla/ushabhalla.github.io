@@ -1,0 +1,166 @@
+/*!
+* Start Bootstrap - Creative Bootstrap Theme (http://startbootstrap.com)
+* Code licensed under the Apache License v2.0.
+* For details, see http://www.apache.org/licenses/LICENSE-2.0.
+*/
+
+/*font-family: 'VT323', monospace; */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/* font-family: 'Slabo 27px', serif; */
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+/*font-family: 'VT323', monospace; */
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px|Source+Serif+Pro');
+/* font-family: 'VT323', monospace; */
+@import url('https://fonts.googleapis.com/css?family=VT323');
+/* font-family: 'Vollkorn', serif; */
+@import url('https://fonts.googleapis.com/css?family=Vollkorn&display=swap');
+
+/* html, */
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0 10% 0 0;
+}
+
+body {
+  font-family: 'VT323', monospace;
+  /* background: #bfc9ff; */
+  background: #f5f8ff;
+  /* background: #fcfcfc; */
+  font-size: 20px;
+}
+
+body a {
+  color: #cf9400;
+}
+
+a:hover {
+  color: gold;
+}
+
+.header-content {
+    width: 19%;
+    position: fixed;
+    text-align: right;
+    padding-right: 55px;
+}
+
+
+body .content {
+  /* width: 70%;
+  max-width: 900px;
+  min-width: 300px; */
+  margin: 0 auto 50px 20%;
+  position: relative;
+  color: black;
+  padding-top: 100px;
+  padding-left: 20px;
+  /* padding-right:  */
+}
+
+#logo {
+    padding-top: 20px;
+    height: 160px;
+}
+
+#menu {
+    list-style: none;
+}
+
+.list-group {
+    line-height: 90%;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.list-header {
+    /* font-weight: bold; */
+    color: #b58202;
+}
+
+
+.portfolio-box {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portfolio-box .portfolio-box-caption {
+  display: block;
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  transition: all .2s;
+}
+
+/* .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name
+{
+  font-family: 'VT323', monospace;
+  font-size: 18px;
+  color: white;
+} */
+
+.portfolio-box:hover {
+  border-bottom: none;
+  text-decoration: none;
+}
+
+.portfolio-box img {
+  width: 100%;
+  opacity: 1;
+}
+
+@media(max-width:768px) {
+  .portfolio-box {
+    margin-bottom: 20px;
+  }
+}
+
+@media(min-width:768px) {
+  /* .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    font-size: 16px;
+  }
+
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 22px;
+  } */
+
+  .portfolio-box {
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: gold;
+}
+
+.project-title-work {
+ font-family: 'VT323', monospace;
+  color: #ed1288;
+  /* color: gold; */
+  font-size: 36px;
+  position: absolute;
+  width: 90%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 1.0;
+}
+
+.portfolio-box:hover .overlay {
+  opacity: 1;
+}

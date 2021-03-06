@@ -24,7 +24,8 @@ body {
 
 body {
   font-family: 'VT323', monospace;
-  background: #bfc9ff;
+  /* background: #bfc9ff; */
+  background: #e3e9ff;
   /* background: #fcfcfc; */
 }
 
@@ -50,14 +51,14 @@ body .content {
   .portfolio-box {
     margin-right: 0px !important;
   }
-  
+
   header .pages a {
     text-decoration: none;
     font-size: 14px;
     color: lightyellow;
     transition: 0.3s ease;
   }
-  
+
   header .header-content .header-content-inner h1 {
     margin-top: 0;
     margin-bottom: 0;
@@ -67,7 +68,7 @@ body .content {
     display: inline-block;
     transition: 0.3s ease;
   }
-  
+
 }
 
 a {
@@ -76,6 +77,23 @@ a {
   -moz-transition: all .35s;
   transition: all .35s;
 }
+
+.iframe-wrap {
+  overflow: hidden;
+  /* 16:9 aspect ratio */
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.iframe-wrap iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
 
 .content p a {
   text-decoration: underline;
@@ -261,8 +279,8 @@ WORK
 .col-sm-6 {
   padding: 0 !important;
 }
- 
-.video-container {
+
+/* .video-container {
   position: relative;
   padding-bottom: 45%;
   height: 0;
@@ -271,17 +289,17 @@ WORK
   margin-right: auto;
   display: block;
   width: 80%;
-}
+} */
 
-.project-title {
+/* .project-title {
   font-family: 'VT323', monospace;
   color: lightyellow;
   font-size: 1.5em;
-}
+} */
 
 /* MOBILE */
 @media(max-width:768px) {
-  .project-title h2 {
+  /* .project-title h2 {
     font-family: 'VT323', monospace;
     font-size: 24px;
   }
@@ -292,19 +310,19 @@ WORK
     text-decoration: underline;
     font-size: 1em;
     color: gold;
-  }
-  
+  } */
+
   header .pages a {
     text-decoration: none;
     font-size: 18px;
     color: lightyellow;
     transition: 0.3s ease;
   }
-  
+
 }
 
 /* DESKTOP */
-@media(min-width:768px) {
+/* @media(min-width:768px) {
   .project-title h2 {
     font-family: 'VT323', monospace;
     font-size: 56px;
@@ -318,17 +336,17 @@ WORK
   font-size: 1.5em;
   color: gold;
 }
-}
+} */
 
 
-.project-title a:hover {
+/* .project-title a:hover {
   opacity: 0.3;
   color: gold;
 }
 
 .description {
   margin-top: 20px;
-}
+} */
 
 .portfolio-box {
   display: block;
@@ -344,14 +362,14 @@ WORK
   transition: all .2s;
 }
 
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name
+/* .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name
 {
   font-family: 'VT323', monospace;
   font-size: 18px;
   color: white;
-}
+} */
 
-.portfolio-box:hover, .portfolio-box-caption:hover {
+.portfolio-box:hover {
   border-bottom: none;
   text-decoration: none;
 }
@@ -368,13 +386,13 @@ WORK
 }
 
 @media(min-width:768px) {
-  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+  /* .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     font-size: 16px;
   }
 
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 22px;
-  }
+  } */
 
   .portfolio-box {
     margin-right: 20px;
@@ -412,14 +430,14 @@ WORK
   opacity: 1.0;
 }
 
-.project-image {
+/* .project-image {
   width: 100%;
   margin: 0 0 3% 0;
-}
+} */
 
-#glanceback-gif {
+/* #glanceback-gif {
   width: 50%;
-}
+} */
 
 .project-ps {
   width: 50%;
@@ -542,13 +560,13 @@ BOOKAWEEK
     pointer-events: none;
     float: left;
   }
-  
+
   .book-cover img {
     width: 500px;
     height: 500px;
     max-width: 500px;
   }
-  
+
   .book-sketch {
     border: none;
     pointer-events: none;
@@ -558,7 +576,7 @@ BOOKAWEEK
     min-height: 500px;
     float: left;
   }
-  
+
   .book-sketch iframe {
      border: 0;
      height: 100%;
@@ -566,7 +584,7 @@ BOOKAWEEK
      position: absolute;
      top: 0;
      width: 100%;
-  
+
      resize: both;
     overflow: auto;
   }
