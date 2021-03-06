@@ -13,7 +13,8 @@
 /* font-family: 'VT323', monospace; */
 @import url('https://fonts.googleapis.com/css?family=VT323');
 /* font-family: 'Vollkorn', serif; */
-@import url('https://fonts.googleapis.com/css?family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
 
 /* html, */
 body {
@@ -23,11 +24,14 @@ body {
 }
 
 body {
-  font-family: 'VT323', monospace;
+  /* font-family: 'VT323', monospace; */
+  /* font-family: 'Roboto Mono', monospace; */
+  font-family: 'Inconsolata', monospace;
+  /* font-family: 'DotGothic16', sans-serif; */
   /* background: #bfc9ff; */
   background: #f5f8ff;
   /* background: #fcfcfc; */
-  font-size: 20px;
+  font-size: 16px;
 }
 
 body a {
@@ -55,6 +59,7 @@ body .content {
   color: black;
   padding-top: 100px;
   padding-left: 20px;
+  
   /* padding-right:  */
 }
 
@@ -64,7 +69,8 @@ body .content {
 }
 
 #menu {
-    list-style: none;
+  font-family: 'VT323', monospace;
+  list-style: none;
 }
 
 .list-group {
@@ -75,6 +81,7 @@ body .content {
 
 .list-header {
     /* font-weight: bold; */
+    font-size: 22px;
     color: #b58202;
 }
 
