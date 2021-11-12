@@ -55,7 +55,7 @@
         </a>
         <div class="pages">
           <ul id="menu">
-            <li class="list-header"> <a href="#info"> info </a> </li>
+            <li class="list-header"> <a href="#info"> info/ </a> </li>
             <div class="list-group">
                 <li> <a href="#email"> email </a> </li>
                 <!-- <li> <a href="/"> github </a> </li> -->
@@ -63,7 +63,7 @@
             </div>
 
 
-            <li class="list-header"> <a href="#research"> research </a> </li>
+            <li class="list-header"> <a href="#research"> research/ </a> </li>
             <div class="list-group">
                 <!-- <li> <a href="/research"> sun lab </a> </li> -->
                 <li> <a href="#reu"> rosetta reu </a> </li>
@@ -72,7 +72,7 @@
                 <li> <a href="#asu"> asu sgsup </a> </li>
             </div>
 
-            <li class="list-header"> <a href="#exp"> experience </a> </li>
+            <li class="list-header"> <a href="#exp"> experience/ </a> </li>
             <div class="list-group">
                <li> <a href="#proj"> projects </a> </li>
                 <li> <a href="#teaching"> teaching </a> </li>
@@ -80,8 +80,8 @@
                 
             </div>
 
-            <li class="list-header"> <a href="#edu"> education </a> </li>
-            <li class="list-header"> <a href="#art"> art </a> </li>
+            <!-- <li class="list-header"> <a href="#edu"> education/ </a> </li> -->
+            <li class="list-header"> <a href="#art"> art/ </a> </li>
             <div class="list-group">
                 <li> <a href="/artwork.html"> illustration </a> </li>
                 <li> <a href="#art"> dance </a> </li>
@@ -101,24 +101,27 @@
   <div class="content">
     <div class="pages" id="about">
       
-      <div class="about-text">
-        <h3 style="margin-left:10%; font-weight: 300; font-size: 30px;" id="info"> hi! im usha :)</h3>
+      <div class="about-text" style="display: flex;">
+        <!-- <h3 style="margin-left:10%; font-weight: 300; font-size: 30px;" id="info"> hi! im usha :)</h3> -->
+    
+        <div style="margin-left: 5%; margin-top: 7%;"> 
+            <p style="margin-left:10%"> Hi, I'm Usha! I'm a senior at Brown University studying Computer Science. I go by she/her and <a href="https://www.instagram.com/p/CMLg_2alYAZ/">they/them</a> pronouns.</p>
+            <p style="margin-left:10%">Get to know me better! 
+              <p style="margin-left:15%" id="email">- email: usha[underscore]bhalla[at]brown[dot]edu
+              <p style="margin-left:15%" id="linkedin">- cv: [forthcoming]
+        </div>
+
         <div class="pic">
-          <p> <img src="images/IMG_9551.jpg" style="max-width:400px; margin-left:10%;" alt="image of me"></img> </p>
+          <p> <img src="images/IMG_9551.jpg" style="max-width: 400px;
+                display: flex;
+                flex-wrap: nowrap;
+                flex-direction: row;" alt="image of me"></img> </p>
         </div>
-        <!-- <img src="images/IMG_9551.jpg" style="size: 25%;" alt="image of me"></img> -->
-        <p style="margin-left:10%"> i'm a junior at brown university studying computer science. i use she/<a href="https://www.instagram.com/p/CMLg_2alYAZ/">they</a> pronouns!</p>
-        <p style="margin-left:10%">get to know me better! 
-          <p style="margin-left:15%" id="email">- email: usha[underscore]bhalla[at]brown[dot]edu
-          <p style="margin-left:15%" id="linkedin">- linkedin: <a href="https://www.linkedin.com/in/usha-bhalla-57b01017a/">https://www.linkedin.com/in/usha-bhalla-57b01017a/</a>
-          <!-- <p style="margin-left:15%">get to know me better!  -->
 
-
-          <!-- say <a href="mailto:usha_bhalla@brown.edu">hi</a> or find me on <a
-            href="https://www.instagram.com/ushabhalla/" target="_blank">instagram</a> or
-          <a href="https://twitter.com/ushabhalla_" target="_blank">twitter</a>. :) </p> <br> -->
-        </div>
       </div>
+
+      
+    </div>
   </div>
 
 
@@ -126,14 +129,33 @@
 
 
   <div class="content" style="padding-top: 30px;">
-    <h3 style="margin-left:10%; font-weight: 300; font-size: 30px;" id="research"> research</h3>
+    <h3 style="margin-left:10%; font-weight: 300; font-size: 30px;" id="research"> research/</h3>
+      
       <div class="pages" id="research">
         <div class="research-text">
             <p style="margin-left:10%">
+            My research interests generally lie in the realm of computer vision and 1) its applications to healthcare and sustainability, 2) improving the interpretability of models, and 3) improving robustness to limited, biased, or unreliable datasets. <br>
+            This is a collection of some of my work and research experiences thus far. <br><br>
+          
+          </p>
+
+
+             <p style="margin-left:10%; font-weight: 500;
+             font-size: 18px;" id="reu">
               * Microsoft Research Intern</p>
                 <p style="margin-left:15%">
-                  Incoming intern for summer of 2021! <br><br>
-              <p style="margin-left:10%" id="reu">
+                  Developed a 4D-spatiotemporal neural network robust to domain shifts and limited data to identify which scenes of a movie people will recall later on using fMRI scans taken during watch time. <br><br>
+              
+
+              <p style="margin-left:10%; font-weight: 500;
+              font-size: 18px;" id="pal">
+                * Brown Honors Thesis </p>
+                  <p style="margin-left:15%">
+                    Currently pursuing a Senior Thesis with Professor <a href="https://chensun.me/">Chen Sun</a> on the topic of increasing model interpretability with limited supervision. <br><br>
+
+
+              <p style="margin-left:10%; font-weight: 500;
+              font-size: 18px;" id="reu">
               * Rosetta Commons REU Intern</p>
                 <p style="margin-left:15%">
                    Applied Procedural Content Generation via Machine Learning to the tutorial of <a href="https://fold.it/">Foldit</a>, a game about protein folding and design used to teach biochemstry, to create computer generate levels tailored
@@ -141,22 +163,25 @@
                    <b>U. Bhalla</b>, A. Sarkar, S. Cooper. “Application of Procedural Content Generation via Machine Learning to the Tutorial Levels of Foldit.” <i>RosettaCon 2020</i>.<br></p> <br>
 
                    <!-- Wrote a machine learning algorithm to improve the tutorial to FoldIt, a game about protein folding and design, as a part of the NSF-funded Rosetta Commons Research Experience </p> <br> -->
-              <p style="margin-left:10%" id="bni">
+              <p style="margin-left:10%; font-weight: 500;
+              font-size: 18px;" id="bni">
               * Barrow Neurological Institute Translation Bioimaging Intern </p>
                  <p style="margin-left:15%">
                    Analyzed the accuracy and precision of recommended protocols for the acquisition of DSC-MRI images of glioblastomas, metastases, and lymphomas as an intern for Barrow’s Research Program <br><br>
-                   N. Semmineh, <b>U. Bhalla</b>, C. Quarles, et al. “Analysis of Accuracy and Precision of Recommended Protocols for Dynamic Susceptibility Contrast MRI for Brain Metastases.” <i><a href="https://www.ismrm.org/20/program_files/DP01-05.htm">ISMRM 2020</a></i>.
+                   N. Semmineh*, <b>U. Bhalla*</b>, C. Quarles, et al. “Analysis of Accuracy and Precision of Recommended Protocols for Dynamic Susceptibility Contrast MRI for Brain Metastases.” <i><a href="https://www.ismrm.org/20/program_files/DP01-05.htm">ISMRM 2020</a></i>.
                  </p> <br>
-              <p style="margin-left:10%" id="naik">
+              <p style="margin-left:10%; font-weight: 500;
+              font-size: 18px;" id="naik">
               * Mandar Naik Proteomics Lab Research Assistant </p>
                  <p style="margin-left:15%">
                    Studied and solved the 3D structure of SUMO using NMR spectroscopy to aid in the devising of therapeutic intervention inhibitor molecules. </p>
               <br>
-              <p style="margin-left:10%" id="asu">
+              <p style="margin-left:10%; font-weight: 500;
+              font-size: 18px;" id="asu">
               * ASU SGSUP Summer Intern </p>
                  <p style="margin-left:15%">
-                   Analyzed the correlation between the urban heat effect and heat related deaths in Maricopa County with data from the  Maricopa County Department of Public Health, National Centers for Environmental Information, Maricopa County Air Quality Department, and the Arizona Meteorological Network <br>
-                   Presented at <a href="images/UWIN 2017 PDF.pdf">UWIN 2017</a>.</p>
+                   Analyzed the correlation between the urban heat effect and heat related deaths in Maricopa County with data from the  Maricopa County Department of Public Health, National Centers for Environmental Information, Maricopa County Air Quality Department, and the Arizona Meteorological Network <br><br>
+                   David M. Hondula, Aleš Urban, and Usha Bhalla. "A Novel Method for Assessing the Health Impacts of Urban Heat" <i>Presented at <a href="images/UWIN 2017 PDF.pdf">UWIN 2017</a>.</i></p>
               <br>
 
          </div>
@@ -171,16 +196,27 @@
 
 
   <div class="content" style="padding-top: 30px;" id="exp">
-    <h3 style="margin-left:10%; font-weight: 300; font-size: 30px;"> experience</h3>
+    <h3 style="margin-left:10%; font-weight: 300; font-size: 30px;"> experience/</h3>
       <div class="pages">
         <div class="research-text" id="proj">
-          <p style="margin-left:10%">
+          <p style="margin-left:10%; font-weight: 500;
+          font-size: 18px;">
             * Projects</p>
               <p style="margin-left:15%">
                 - AD Finder <br>
                   <p style="margin-left:18%">My final project for CS 1470 - Deep Learning @ Brown. Built an RNN-based neural network to aid in Alzheimer's classification using speech transcript data.</p>
-                  <p style="margin-left:18%">Code: <a href="https://github.com/ushabhalla/deeplearning2020">https://github.com/ushabhalla/deeplearning2020</a></p>
+                  <p style="margin-left:18%">[<a href="https://github.com/ushabhalla/deeplearning2020">Code</a>] [<a href="https://docs.google.com/document/d/1VMnBUOWn4IQtvtEyhDbZkonSXV2AYaDNKZF2KxkiBxI/edit?usp=sharing">Paper</a>]</p>
               </p>
+
+              <p style="margin-left:15%">
+                - Recolorer <br>
+                  <p style="margin-left:18%">My final project for CS 1430 - Computer Vision @ Brown. Built an app that smartly recolors artwork and imagesbased on user input palettes</p>
+                  <p style="margin-left:18%">[<a href="https://github.com/ushabhalla/cv-2021-recolor">Code</a>]
+                    [<a href="https://drive.google.com/file/d/1r06sYeyEWx3uqtNi-ErXll-iY27BTFpP/view?usp=sharing">Paper</a>]
+                    
+                  </p>
+              </p>
+
               <p style="margin-left:15%">
                 - Sea Shell <br>
                   <p style="margin-left:18%">My final project for CS 33 - Computer Systems @ Brown. Built a command terminal shell entirely in C</p>
@@ -191,7 +227,8 @@
 
 
         <div class="research-text" id="teaching">
-            <p style="margin-left:10%">
+            <p style="margin-left:10%; font-weight: 500;
+            font-size: 18px;">
               * Teaching</p>
                 <p style="margin-left:15%">
                   - Head Teaching Assistant <br>
@@ -212,7 +249,8 @@
           </div><br>
 
           <div class="research-text" id="web">
-            <p style="margin-left:10%">
+            <p style="margin-left:10%; font-weight: 500;
+            font-size: 18px;">
               * Web Design</p>
                 <p style="margin-left:15%">
                   - Meal Mantra <br>
@@ -226,8 +264,8 @@
           </div>
       </div>
 
-      <div class="content" style="padding-top: 30px;" id="edu">
-        <h3 style="margin-left:10%; font-weight: 300; font-size: 30px;"> education</h3>
+      <!-- <div class="content" style="padding-top: 30px;" id="edu">
+        <h3 style="margin-left:10%; font-weight: 300; font-size: 30px;"> education/</h3>
           <div class="pages">
             <div class="research-text">
               <p style="margin-left:10%">
@@ -253,23 +291,25 @@
                      
             </div>
         </div>
-      </div>
+      </div> -->
 
       
   <div class="content" style="padding-top: 30px;">
-    <h3 style="margin-left:10%; font-weight: 300; font-size: 30px;" id="art"> art</h3>
+    <h3 style="margin-left:10%; font-weight: 300; font-size: 30px;" id="art"> art/</h3>
       <div class="pages">
         <div class="research-text">
-            <p style="margin-left:10%">
+            <p style="margin-left:10%; font-weight: 500;
+            font-size: 18px;">
               * Illustration</p>
                 <p style="margin-left:15%">
                   My portfolio of sorts is <a href="/artwork.html">here</a>! <br><br>
-              <p style="margin-left:10%" id="reu">
+              <p style="margin-left:10%; font-weight: 500;
+              font-size: 18px;">
               * Dance</p>
               <p style="margin-left:15%">
                 - Brown Abhinaya <br>
                   <p style="margin-left:18%"> I am a captain and choreographer for Brown's premiere classical south asian fusion group!</p>
-                  <p style="margin-left:18%"> Look at some of our stuff <a href="https://www.youtube.com/channel/UCckwSLioKfz-N-1u0TXkP6A">here</a>,
+                  <p style="margin-left:18%"> Look at some of our performances <a href="https://www.youtube.com/channel/UCckwSLioKfz-N-1u0TXkP6A">here</a>,
                   and follow us on <a href="https://www.instagram.com/brownabhinaya/">instagram</a>!</p>
               </p>
               <p style="margin-left:15%">
@@ -278,7 +318,8 @@
                 December 2017. You can watch my favorite piece, a varnam on dashavatar, <a href="https://www.youtube.com/watch?v=0G1fikhja5s">here</a>!</p> 
               </p>
                    <!-- Wrote a machine learning algorithm to improve the tutorial to FoldIt, a game about protein folding and design, as a part of the NSF-funded Rosetta Commons Research Experience </p> <br> -->
-              <p style="margin-left:10%" id="bni">
+              <p style="margin-left:10%; font-weight: 500;
+              font-size: 18px;">
               * Brown Daily Herald </p>
                  <p style="margin-left:15%">
                    I have been the Graphics Editor for the BDH since September 2019. The majority of my work is <a href="https://www.browndailyherald.com/author/ushabhalla/">here</a>!

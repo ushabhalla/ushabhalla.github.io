@@ -14,6 +14,7 @@
 @import url('https://fonts.googleapis.com/css?family=VT323');
 /* font-family: 'Vollkorn', serif; */
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500&display=swap'); 
 
 
 /* html, */
@@ -48,7 +49,10 @@ a:hover {
     text-align: right;
     padding-right: 55px;
 }
-
+.about-text {
+  display: flex;
+  font-size: 18px;
+}
 
 body .content {
   /* width: 70%;
@@ -69,7 +73,7 @@ body .content {
 }
 
 #menu {
-  font-family: 'VT323', monospace;
+  /* font-family: 'VT323', monospace; */
   list-style: none;
 }
 
@@ -78,6 +82,13 @@ body .content {
     font-size: 18px;
     font-weight: lighter;
 }
+.list-group a {
+  line-height: 90%;
+  font-size: 14px;
+  font-weight: lighter;
+  color: black;
+}
+
 
 .list-header {
     /* font-weight: bold; */
