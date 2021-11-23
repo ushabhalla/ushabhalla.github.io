@@ -63,8 +63,14 @@ body .content {
   color: black;
   padding-top: 100px;
   padding-left: 20px;
-  
-  /* padding-right:  */
+}
+
+.pages {
+  padding-right: 10%;
+}
+
+#selected {
+  color:gold;
 }
 
 #logo {
@@ -129,9 +135,41 @@ body .content {
 }
 
 @media(max-width:768px) {
+  .header-content {
+    position: fixed;
+    z-index: -1;
+  }
+
   .portfolio-box {
     margin-bottom: 20px;
   }
+  .about-text {
+    display: block;
+    margin-right: -200px;
+  }
+  img {
+    max-width: 200px;
+    margin-left: 30px;
+  }
+
+  .pages {
+    margin-right: -200px;
+    margin-left: -50px;
+  }
+
+  #menu {
+    margin-top: -130px;
+    margin-left: 300px;
+  }
+  .list-header {
+    font-size: 18px;
+  }
+
+  .content {
+    margin-right: 50px;
+    padding-right: 5%;
+  }
+
 }
 
 @media(min-width:768px) {
