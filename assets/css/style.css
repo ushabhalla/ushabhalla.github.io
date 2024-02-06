@@ -66,6 +66,10 @@ ul {
     margin-left: 26%;
     margin-right: 25%;
   }
+  #logo {
+    padding-top: 60px;
+  }
+
 }
 
 @media (max-width: 860px) {
@@ -139,7 +143,13 @@ ul {
   color: gold;
 }
 
-#logo,
+#logo {
+  width: 85%;
+  height: 85%;
+  object-fit: contain;
+  object-position: bottom;
+}
+
 #portrait {
   width: 100%;
   height: 100%;
